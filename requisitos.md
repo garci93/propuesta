@@ -343,6 +343,564 @@
 | **Entrega**     | v1             |
 
 
+| **R39**     | **Crear base de datos SQL**         |
+| --------------: | :------------------- |
+| **Descripción** | Crear un fichero .sql que contendrá la base de datos de la aplicación, y cargarla en la misma.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v1             |
+
+
+| **R40**     | **Crear usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Crear una cuenta nueva de usuario, registrarse en la aplicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R41**     | **Modificar usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Cambiar los datos del usuario, tales como nombre y dirección de correo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R42**     | **Darse de baja**         |
+| --------------: | :------------------- |
+| **Descripción** | Darse de baja de la aplicación, eliminando la cuenta y todos sus datos relacionados.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **Eliminar a un usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Dar de baja a un usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Generar correo de bienvenida**         |
+| --------------: | :------------------- |
+| **Descripción** | Generar un correo automático que se enviará al usuario cuando se registre, confirmando que su cuenta ha sido creada.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R45**     | **Cambiar permisos de usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Dar permisos de moderación a un usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Ver perfil de usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Visualizar el perfil de un usuario, con todas sus galerías y colecciones.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R47**     | **Modificar perfil de usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Permitir que un usuario pueda modificar su perfil.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Iniciar sesión**         |
+| --------------: | :------------------- |
+| **Descripción** | Permitir que un usuario registrado inicie sesión en la aplicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R49**     | **Cerrar sesión**         |
+| --------------: | :------------------- |
+| **Descripción** | Permitir que un usuario registrado cierre su sesión.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R50**     | **Cambiar idioma**         |
+| --------------: | :------------------- |
+| **Descripción** | Dar la opción de cambiar el idioma de la aplicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R51**     | **Subir una obra**         |
+| --------------: | :------------------- |
+| **Descripción** | Subir una obra creada por el usuario a la aplicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R52**     | **Subir una obra colaborativa**         |
+| --------------: | :------------------- |
+| **Descripción** | Subir una obra creada por varios usuarios. Un usuario la sube y etiqueta a los otros coautores, pudiendo estos recibir notificaciones relacionadas con ella, y su autoría es reflejada en la información de la obra.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R53**     | **Visualizar una obra**         |
+| --------------: | :------------------- |
+| **Descripción** | Entrar en una obra y mostrarla con su información correspondiente y sus comentarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v1             |
+
+
+| **R54**     | **Ver una obra a tamaño completo**         |
+| --------------: | :------------------- |
+| **Descripción** | Abrir una imagen en tamaño completo haciendo clic en ella, si en un principio se mostraba reducida por ser demasiado grande.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R55**     | **Editar una obra**         |
+| --------------: | :------------------- |
+| **Descripción** | Editar la información de una obra, o cambiar el archivo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R56**     | **Eliminar una obra**         |
+| --------------: | :------------------- |
+| **Descripción** | Permitir que un usuario borre alguna de sus obras.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R57**     | **Compartir una obra en Facebook**         |
+| --------------: | :------------------- |
+| **Descripción** | Permitir que un usuario comparta una obra mediante una publicación de Facebook.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R58**     | **Compartir una obra en Twitter**         |
+| --------------: | :------------------- |
+| **Descripción** | Permitir que un usuario comparta una obra mediante una publicación de Twitter.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R59**     | **Compartir una obra en Tumblr**         |
+| --------------: | :------------------- |
+| **Descripción** | Permitir que un usuario comparta una obra mediante una publicación de Tumblr.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R60**     | **Reportar obra**         |
+| --------------: | :------------------- |
+| **Descripción** | Dar la opción de reportar una obra por uso indebido de la aplicación, generando un correo que se enviará a todos los moderadores.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R61**     | **Eliminar una obra de un usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Permitir que un moderador o administrador borre una obra de algún usuario por resultar inapropiada, generando un correo que se enviará al usuario afectado.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R62**     | **Recomendar una obra a un usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Enviar una notificación a un usuario para recomendarle una obra que creemos que le puede gustar, siempre y cuando nos siga.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R63**     | **Ver galería**         |
+| --------------: | :------------------- |
+| **Descripción** | Ver galería de las obras de un usuario en concreto.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R64**     | **Modificar galería**         |
+| --------------: | :------------------- |
+| **Descripción** | Modificar qué obras que deben aparecer en la galería.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R65**     | **Crear nueva galería**         |
+| --------------: | :------------------- |
+| **Descripción** | Crear una nueva galería de obras subidas por el usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R66**     | **Crear colección**         |
+| --------------: | :------------------- |
+| **Descripción** | Crear una nueva colección de obras que el usuario añada a sus favoritos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R67**     | **Añadir obra a una colección**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir una obra a una colección en particular.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R68**     | **Añadir obra a una galería**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir una obra del propio usuario a una de sus galerías.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R69**     | **Descargar obra**         |
+| --------------: | :------------------- |
+| **Descripción** | Descargar una obra al dispositivo del usuario, siempre y cuando la opción esté habilitada en la publicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R70**     | **Ver colección**         |
+| --------------: | :------------------- |
+| **Descripción** | Ver una colección de obras.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R71**     | **Modificar colección**         |
+| --------------: | :------------------- |
+| **Descripción** | Modificar una colección de obras.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R72**     | **Eliminar colección**         |
+| --------------: | :------------------- |
+| **Descripción** | Borrar una colección de obras.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R73**     | **Escribir un comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Escribir un comentario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R74**     | **Editar comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Editar un comentario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R75**     | **Eliminar comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Borrar un comentario del propio usuario. Si es moderador, podrá borrar comentarios de otros usuarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R76**     | **Responder a un comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Responder a un comentario y mostrarlo de forma anidada.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R77**     | **Reportar usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Reportar que un usuario está haciendo un mal uso de la aplicación, generando un correo que se enviará a todos los moderadores.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R78**     | **Búsqueda de obras**         |
+| --------------: | :------------------- |
+| **Descripción** | Buscar obras de manera general.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R79**     | **Búsqueda avanzada de obras**         |
+| --------------: | :------------------- |
+| **Descripción** | Buscar obras específicamente por usuario, etiqueta, categoría o título.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R80**     | **Ordenar búsqueda por fecha**         |
+| --------------: | :------------------- |
+| **Descripción** | Ordenar resultados por fecha.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R81**     | **Ordenar búsqueda por popularidad**         |
+| --------------: | :------------------- |
+| **Descripción** | Ordenar resultados por número de favoritos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R82**     | **Enviar mensaje privado**         |
+| --------------: | :------------------- |
+| **Descripción** | Enviar un mensaje privado a un usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R83**     | **Responder mensaje privado**         |
+| --------------: | :------------------- |
+| **Descripción** | Responder a un mensaje privado             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R84**     | **Ver bandeja de entrada**         |
+| --------------: | :------------------- |
+| **Descripción** | Ver la bandeja de mensajes recibidos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R85**     | **Ver bandeja de salida**         |
+| --------------: | :------------------- |
+| **Descripción** | Ver la bandeja de mensajes enviados.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R86**     | **Eliminar mensaje enviado**         |
+| --------------: | :------------------- |
+| **Descripción** | Eliminar un mensaje que se ha enviado a un usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R87**     | **Eliminar mensaje recibido**         |
+| --------------: | :------------------- |
+| **Descripción** | Eliminar un mensaje recibido de otro usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R88**     | **Subir avatar**         |
+| --------------: | :------------------- |
+| **Descripción** | Subir una imagen que usar como avatar de la cuenta, con las dimensiones correctas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R89**     | **Cambiar avatar**         |
+| --------------: | :------------------- |
+| **Descripción** | Cambiar el avatar de la cuenta, de nuevo comprobando que las dimensiones sean correctas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R90**     | **Visualizar modelo 3D**         |
+| --------------: | :------------------- |
+| **Descripción** | Poder visualizar un modelo 3D subido por un usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R91**     | **Visualizar animación**         |
+| --------------: | :------------------- |
+| **Descripción** | Poder visualizar animaciones.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R92**     | **Visualizar vídeo**         |
+| --------------: | :------------------- |
+| **Descripción** | Poder visualizar vídeos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R93**     | **Barra de menú**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar barra del menú principal.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R94**     | **Avisar notificaciones**         |
+| --------------: | :------------------- |
+| **Descripción** | Mostrar en la barra superior un resumen de las notificaciones pendientes             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R95**     | **Ver notificaciones**         |
+| --------------: | :------------------- |
+| **Descripción** | Mostrar en detalle las notificaciones que el usuario haya recibido.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R96**     | **Borrar notificación**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir un botón para borrar una notificación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R97**     | **Borrar todas las notificaciones**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir un botón para borrar todas las notificaciones recibidas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R98**     | **Cambiar tema**         |
+| --------------: | :------------------- |
+| **Descripción** | Cambiar el tema del diseño.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R99**     | **Seguir usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Seguir a un usuario en particular.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R100**     | **Dejar de seguir**         |
+| --------------: | :------------------- |
+| **Descripción** | Dejar de seguir a un usuario en particular.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
 
 ## Cuadro resumen
 
@@ -386,3 +944,65 @@
 | (**R36**) Varios navegadores | Mínimo | Técnico | Fácil | v1 | 
 | (**R37**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 | 
 | (**R38**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
+| (**R39**) Crear base de datos SQL | Importante | Información | Difícil | v1 | 
+| (**R40**) Crear usuario | Importante | Funcional | Fácil | v1 | 
+| (**R41**) Modificar usuario | Importante | Funcional | Fácil | v1 | 
+| (**R42**) Darse de baja | Importante | Funcional | Fácil | v1 | 
+| (**R43**) Eliminar a un usuario | Importante | Funcional | Fácil | v1 | 
+| (**R44**) Generar correo de bienvenida | Opcional | Funcional | Media | v3 | 
+| (**R45**) Cambiar permisos de usuario | Importante | Funcional | Fácil | v1 | 
+| (**R46**) Ver perfil de usuario | Importante | Funcional | Media | v1 | 
+| (**R47**) Modificar perfil de usuario | Importante | Funcional | Media | v1 | 
+| (**R48**) Iniciar sesión | Importante | Funcional | Fácil | v1 | 
+| (**R49**) Cerrar sesión | Importante | Funcional | Fácil | v1 | 
+| (**R50**) Cambiar idioma | Importante | Funcional | Fácil | v1 | 
+| (**R51**) Subir una obra | Importante | Funcional | Media | v1 | 
+| (**R52**) Subir una obra colaborativa | Importante | Funcional | Difícil | v2 | 
+| (**R53**) Visualizar una obra | Importante | Funcional | Difícil | v1 | 
+| (**R54**) Ver una obra a tamaño completo | Importante | Funcional | Media | v2 | 
+| (**R55**) Editar una obra | Importante | Funcional | Fácil | v1 | 
+| (**R56**) Eliminar una obra | Importante | Funcional | Fácil | v1 | 
+| (**R57**) Compartir una obra en Facebook | Importante | Funcional | Media | v2 | 
+| (**R58**) Compartir una obra en Twitter | Importante | Funcional | Media | v2 | 
+| (**R59**) Compartir una obra en Tumblr | Importante | Funcional | Media | v2 | 
+| (**R60**) Reportar obra | Opcional | Funcional | Media | v3 | 
+| (**R61**) Eliminar una obra de un usuario | Opcional | Funcional | Media | v3 | 
+| (**R62**) Recomendar una obra a un usuario | Opcional | Funcional | Media | v3 | 
+| (**R63**) Ver galería | Importante | Funcional | Media | v1 | 
+| (**R64**) Modificar galería | Importante | Funcional | Media | v1 | 
+| (**R65**) Crear nueva galería | Importante | Funcional | Media | v1 | 
+| (**R66**) Crear colección | Importante | Funcional | Media | v1 | 
+| (**R67**) Añadir obra a una colección | Importante | Funcional | Fácil | v1 | 
+| (**R68**) Añadir obra a una galería | Importante | Funcional | Fácil | v1 | 
+| (**R69**) Descargar obra | Importante | Funcional | Fácil | v1 | 
+| (**R70**) Ver colección | Importante | Funcional | Media | v1 | 
+| (**R71**) Modificar colección | Importante | Funcional | Media | v1 | 
+| (**R72**) Eliminar colección | Importante | Funcional | Fácil | v1 | 
+| (**R73**) Escribir un comentario | Importante | Funcional | Fácil | v2 | 
+| (**R74**) Editar comentario | Importante | Funcional | Fácil | v2 | 
+| (**R75**) Eliminar comentario | Importante | Funcional | Fácil | v2 | 
+| (**R76**) Responder a un comentario | Importante | Funcional | Media | v2 | 
+| (**R77**) Reportar usuario | Opcional | Funcional | Fácil | v3 | 
+| (**R78**) Búsqueda de obras | Importante | Funcional | Media | v1 | 
+| (**R79**) Búsqueda avanzada de obras | Importante | Funcional | Media | v1 | 
+| (**R80**) Ordenar búsqueda por fecha | Importante | Funcional | Fácil | v1 | 
+| (**R81**) Ordenar búsqueda por popularidad | Importante | Funcional | Fácil | v1 | 
+| (**R82**) Enviar mensaje privado | Importante | Funcional | Fácil | v2 | 
+| (**R83**) Responder mensaje privado | Importante | Funcional | Fácil | v2 | 
+| (**R84**) Ver bandeja de entrada | Importante | Funcional | Fácil | v2 | 
+| (**R85**) Ver bandeja de salida | Importante | Funcional | Fácil | v2 | 
+| (**R86**) Eliminar mensaje enviado | Importante | Funcional | Fácil | v2 | 
+| (**R87**) Eliminar mensaje recibido | Importante | Funcional | Fácil | v2 | 
+| (**R88**) Subir avatar | Importante | Funcional | Media | v2 | 
+| (**R89**) Cambiar avatar | Importante | Funcional | Media | v2 | 
+| (**R90**) Visualizar modelo 3D | Importante | Técnico | Media | v2 | 
+| (**R91**) Visualizar animación | Importante | Técnico | Media | v2 | 
+| (**R92**) Visualizar vídeo | Importante | Técnico | Media | v2 | 
+| (**R93**) Barra de menú | Importante | Funcional | Media | v1 | 
+| (**R94**) Avisar notificaciones | Importante | Funcional | Difícil | v2 | 
+| (**R95**) Ver notificaciones | Importante | Funcional | Difícil | v2 | 
+| (**R96**) Borrar notificación | Importante | Funcional | Fácil | v2 | 
+| (**R97**) Borrar todas las notificaciones | Importante | Funcional | Fácil | v2 | 
+| (**R98**) Cambiar tema | Opcional | Funcional | Media | v3 | 
+| (**R99**) Seguir usuario | Importante | Funcional | Media | v2 | 
+| (**R100**) Dejar de seguir | Importante | Funcional | Media | v2 | 
